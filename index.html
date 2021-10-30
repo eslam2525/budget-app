@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/da2c8e9e1d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-------
+ <label>result</label><br>
+<input type="text" id="result"><br><br>
+<label>number 1</label><br>
+<input type="text" id="txt-1" ><br><br>
+
+    <select  id="operator">
+    <option value="">select operation</option>
+    <option  value="multi">multi</option>
+    <option value="divid" >divid</option>
+    <option value="minus" >minus</option>
+    <option  value="add">add</option>
+     </select><br><br>
+
+<label>number 2</label><br>
+<input type="text" id="txt-2"><br><br>
+
+<button id="click" onclick="calc();" >calculate </button>
+
+
+
+ 
+<p id= "par"> click me to display the date </p>
+<button id= "btn" onclick="displayDate();">click me</button>
+<br><br>
+
+    user name : <input id="user" type=" text" placeholder="user name "><br><br>
+    password : <input id="pass" type="password" placeholder="pass word"><br> <br>
+    <button type="submit" id="log" onclick="getInfo();"> submit</button><br>
+    <p id="info">your information wiil appear here </p>
+
+
+
+    <textarea id="textarea" type="text" ></textarea><br>
+    <p id="article">your article will post here</p>
+    <p id="par-len" >this paragraph length</p>
+    <button onclick="view();"> post </button>
+
+    <button onclick="likeCounter();"> like</button>
+    <p id="total-likes">your tottal likes is 0  : </p>
+    <p id= "current-likes">cueernt likes  </p>
+    <P id="likes-numbers">the likes number will appear here </P>
+
+----->
+<div>
+<h1> <i class="fas fa-comments-dollar"></i>    budget app </h1>
+<br>
+
+<i class="fas fa-money-check-alt">  </i> <span> your salary</span>
+ <input type="text" id="salary" placeholder="enter monthly salery" >
+ <hr>
+ <i class="fas fa-file-invoice"></i><span> monthly payment</span>
+<input type="text" id="m-payment" placeholder="car, insurance ,phone bill ,subscrption pyment" >
+<select>pyment type
+    <option>pyment type</option>
+    <option>rent</option>
+    <option>home loan</option>
+    <option>car loan </option>
+    <option> car insurance</option>
+    <option>phone bills</option>
+    <option> digital subsbription </option>
+    <option>fitnes bill</option>
+    <option>transportation</option>
+</select>
+
+<span class="span-1">add bill</span>
+<button id=""  onclick="getElement1();"> <i class="fas fa-plus-square"> </i></button>
+<span class="span-1">remove</span>
+<button id="" onclick="removeElement1();" > <i class="fas fa-minus-circle"></i> </button>
+
+<P id="para-1"></P>
+<hr>
+
+
+
+<i class="fas fa-mail-bulk"> </i><span> utility bills </span>
+<input type="text" id="u-bill"  placeholder="gas, elctric ,water.etc">
+<select>pyment type
+    <option>pyment type</option>
+    <option>rent</option>
+    <option>home loan</option>
+    <option>car loan </option>
+    <option> car insurance</option>
+    <option>phone bills</option>
+    <option> digital subsbription </option>
+    <option>fitnes bill</option>
+    <option>transportation</option>
+</select>
+
+
+<span class="span-2">add bill</span>
+ <button  onclick="getElement2();"> <i class="fas fa-plus-square"></i></button> 
+ <span class="span-1">remove</span>
+ <button id="" onclick="removeElement2();" > <i class="fas fa-minus-circle"></i> </button>
+ <P id="para-2"> </P>
+
+
+
+ <hr>
+ <i class="fas fa-hamburger"></i><span> averag  daily spend on food</span><br>
+<label>averg from : </label>
+  <input type="text" id="averg-from" >
+  <label>  averg to : </label>
+ <input type="text" id="averg-to" ><br>
+
+ <i class="fas fa-mug-hot"></i><span> averag daily on cofee  & baverag </span><br>
+ <label>averg from : </label>
+   <input type="text" id="averg-from" >
+   <label>  averg to : </label>
+  <input type="text" id="averg-to" ><br>
+ 
+
+ <i class="fas fa-shopping-bag"></i><span> averag daily on shopping</span><br>
+ <label>averg from : </label>
+   <input type="text" id="averg-from" >
+   <label>  averg to : </label>
+  <input type="text" id="averg-to" ><br>
+
+  <i class="fas fa-gifts"></i><span> averag daily on entertaiment </span><br>
+ <label>averg from : </label>
+   <input type="text" id="averg-from" >
+   <label>  averg to : </label>
+  <input type="text" id="averg-to" ><br>
+
+  <i class="fas fa-gas-pump"></i><span>  averag daily on gas </span><br>
+ <label>averg from : </label>
+   <input type="text" id="averg-from" >
+   <label>  averg to : </label>
+  <input type="text" id="averg-to" ><br>
+
+
+  <i class="fas fa-baby"></i><span> averag daily of family care  </span><br>
+ <label>averg from : </label>
+   <input type="text" id="averg-from" >
+   <label>  averg to : </label>
+  <input type="text" id="averg-to" ><br>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <i class="fas fa-poll"></i>      <span> data result</span>
+  <input type="text" id="data-result" >
+  <button class="result" onclick="yourSalary();">see result</button>
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
